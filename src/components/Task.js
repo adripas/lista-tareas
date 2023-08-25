@@ -30,7 +30,7 @@ return ( <>
 <div className='write_tarea'>   
 
     <p> <input className='input' type='text' placeholder='Digite una Tarea' value={task} onChange={e =>setTask(e.target.value)}></input> </p>
-    <p><button className='add' type='button' onClick={()=>addTask(task)} > Add</button></p>
+    <p><button className='add' type='button' onClick={()=>addTask(task)}> Add</button></p>
 </div>
 </form>
 </>

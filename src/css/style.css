@@ -12,9 +12,11 @@
  }
 
  .add{
-
+    background-color: palevioletred;
+    color: white;
     height: 30px;
     width: 50px;
+
  }
 
  .logo_delete{
