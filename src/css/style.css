@@ -43,30 +43,32 @@
  }
  
  .showList{
+    align-items: center;
     background-color: lavenderblush;
     display: flex;    
-    align-items: center;
-    justify-content: center;
-    width: 400px;
     height: auto;
+    justify-content: center;
     margin-left: 40%;
+    width: 400px;
 
 }
  
  .tarea{
-     display: flex;
      border: 1px solid grey;
+     display: flex;
      height: 25px;
-     width:200px ;
      margin-right: 30px;
+     width:200px ;
+     
  }
 
  .write_tarea{
    align-items: center;
    background-color: lightpink;
-   justify-content: center;
    display: flex;
+   justify-content: center;   
    height: 50px;
-   width: 400px;
    margin-left: 40%;
+   width: 400px;
+   
 }
