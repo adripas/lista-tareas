@@ -10,15 +10,21 @@ const [taskList, setTaskList] = useState([]);
 const [count, setCount] = useState(0);
 
 const addTask = task => {
-    setTaskList ([...taskList, {id:count, task: task} ])
+   const taskUpdate= ([...taskList, {id:count, task: task} ])
+   setTaskList(taskUpdate);
     setCount(count+1);
     console.log(taskList);
+}
+
+const deleteTask = id =>{
+   const  taskUpdate = taskList.filter(task => task.id !== id);
+   setTaskList(taskUpdate);
 }
 
 return ( <>
      <Task addTask = {addTask}></Task>
      {taskList.map((task, index)=> (
-        <TaskList task={task} key ={index}>
+        <TaskList task={task} key ={index} deleteTask ={deleteTask}>
             {console.log(task)}
         </TaskList>
      ))}

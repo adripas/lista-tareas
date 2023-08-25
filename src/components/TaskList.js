@@ -1,10 +1,10 @@
 import logo from "../assets/img/delete.png";
 import '../css/style.css';
 
-const TaskList =({task})=> {
+const TaskList =({task, deleteTask})=> {
 
-     
-    return ( 
+
+     return ( 
 
  <div className="showList">
     <div className='message' >
@@ -14,8 +14,8 @@ const TaskList =({task})=> {
       
      </div>
     <div className="button"> 
-        <button  type='button' ></button>
-        <img src= {logo} className="logo_delete"></img>
+        <button  type='button'></button>
+        <img src= {logo} className="logo_delete" onClick={()=>deleteTask(task.id)}></img>
     </div>
   </div>
     );

@@ -44,29 +44,6 @@
 
  }
  
- 
- /*.main {
-     align-items: center;
-     justify-content: center;
-     display: flex;
-     height: 100%;
-     width: 100%;
- 
- }*/
-           
- /*.contenedor_tarea{
-     background-color: aliceblue;
-     box-sizing: border-box;
-     display: flex;
-     height: 300px;
-     width: 300px;
-     margin-left: 50%;
-     padding: 40px 0 10px 10px ;
-    
-       
- }*/
-
-    
  .write_tarea{
     align-items: center;
     background-color: lightpink;
