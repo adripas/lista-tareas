@@ -6,7 +6,7 @@
  h1{
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
    font-weight: 500;
-   margin-left:  50%;
+   margin-left:  40%;
    padding-top: 100px ;
 
  }
@@ -19,52 +19,37 @@
 
  }
 
+ .input {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   height: 30px;
+   width: 300px;
+   padding-left: 5px;
+}
+
  .logo_delete{
- cursor: pointer;
- margin-left: 20px;
-
-
+   cursor: pointer;
+   margin-left: 20px;
  }
 
  .logo_delete:hover{
    opacity: 80%;
  }
  
- .input {
-    /* display: block;*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    height: 30px;
-    width: 300px;
-   /* margin-right:20px;*/
-    padding-left: 5px;
- }
-
  .message{
 
     width: 200px;
 
  }
  
- .write_tarea{
-    align-items: center;
-    background-color: lightpink;
-    justify-content: center;
-    display: flex;
-    height: 50px;
-    width: 400px;
-    margin-left: 50%;
-   
- 
-}
-.showList{
+ .showList{
     background-color: lavenderblush;
     display: flex;    
     align-items: center;
     justify-content: center;
     width: 400px;
     height: auto;
-    margin-left: 50%;
+    margin-left: 40%;
 
 }
  
@@ -74,6 +59,14 @@
      height: 25px;
      width:200px ;
      margin-right: 30px;
-     
- 
  }
+
+ .write_tarea{
+   align-items: center;
+   background-color: lightpink;
+   justify-content: center;
+   display: flex;
+   height: 50px;
+   width: 400px;
+   margin-left: 40%;
+}
